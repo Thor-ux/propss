@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "react-scripts start", 
-  "build": "react-scripts build", 
-  "test": "react-scripts test", 
-  "eject": "react-scripts eject"
-},
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Thor-ux/propss.git"
@@ -24,6 +24,25 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
